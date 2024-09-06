@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16690460489"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16690460489');
+</script>
+<!-- Event snippet for Pixel conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16690460489/g3TkCNGgptAZEMnu0JY-',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOBIHUB lite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <meta name="description"
+  content="Ανακαλύψτε έναν υπέροχο τρόπο να κερδίσετε online! Δείτε βίντεο στο TikTok και αξιολογήστε τα μέσω του προγράμματός μας στο Telegram. Ξεκινήστε να κερδίζετε χρήματα εύκολα και διασκεδάζοντας τώρα!">
+  <style>
+    /* Stili generali */
+    .new-regular, .new-bold, .new-regular-italic, .new-bold-italic {
+      font-family: "B612", sans-serif;
+    }
+    .new-regular { font-weight: 400; font-style: normal; }
+    .new-bold { font-weight: 700; font-style: normal; }
+    .new-regular-italic { font-weight: 400; font-style: italic; }
+    .new-bold-italic { font-weight: 700; font-style: italic; }
+
+    body { margin: 0; padding: 0; text-align: center; font-family: "B612", sans-serif; }
+    header { background-color: #fff; color: #000; padding: 10px; font-size: 20px; font-weight: bolder; }
+    .new-logo img { vertical-align: middle; margin-right: 10px; }
+
+    /* Stili della sezione principale */
+    main {}
+
+    /* Stili dell'immagine grande */
+    .new-big-image, .new-big-image_2 {
+      position: relative;
+      width: 100%;
+      height: 85vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 20px;
+      filter: blur();
+    }
+
+    .new-big-image {
+      background-image: url("14.jpg");
+    }
+
+    .new-big-image_2 {
+      background-image: url("13.jpg");
+    }
+
+    .new-big-image-text { color: #fff; padding: 20px; border-radius: 25px; }
+
+    /* Stili del pulsante */
+    .new-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffd7ef;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-top: 20px;
+      font-weight: bolder;
+      font-size: 30px;
+      border: solid 1px #ffd7ef;
+      animation: myAnim 2s ease 2s infinite normal forwards;
+      cursor: pointer;
+    }
+
+    @keyframes myAnim {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+    /* Stili della sezione */
+    .new-section, .new-section_2 { margin-top: 30px; display: flex; flex-wrap: wrap; justify-content: space-around; }
+
+    /* Stili della seconda sezione */
+    .new-section_2 { padding: 30px; text-align: left; background-color: #ffd7ef; border-radius: 25px; }
+
+    .new-section div { flex-basis: calc(33.33% - 20px); margin-bottom: 20px; }
+    .new-section img { display: block; width: 100%; height: auto; border-radius: 25px; }
+    .new-section p { text-align: center; margin-top: 10px; }
+
+    h2 { font-size: 40px; }
+    p { font-size: 20px; margin: 10px; }
+
+    /* Stili responsive */
+    @media only screen and (max-width: 768px) {
+      .new-section, .new-section_2 { flex-wrap: wrap; }
+      .new-section div { flex-basis: calc(100% - 20px); margin-right: 0; }
+      h2 { font-size: 30px; }
+    }
+
+    /* Stili del testimonial */
+    .new-otziv { display: flex; flex-direction: column; align-items: flex-start; background-color: #ffd7ef; color: #000; border-radius: 25px; padding: 5px; }
+    .new-otziv > img { width: 80px; height: 80px; object-fit: cover; border-radius: 50%; }
+    .new-otziv > p { text-align: left; }
+
+    .new-name { font-weight: bolder; font-style: normal; }
+
+    /* Stili del blocco */
+    .new-block { display: flex; flex-direction: column; align-items: center; margin-bottom: 20px; }
+    .new-title { width: 90%; font-size: 20px; font-weight: bolder; color: #000; padding: 10px; cursor: pointer; }
+    .new-description { width: 70%; display: none; padding: 10px; background-color: #fff; }
+    .new-span_bold { font-weight: bolder; }
+
+    hr { background-color: #333; width: 50%; }
+    .new-link1 { text-decoration: none; color: #ffd7ef; }
+
+    /* Stili del piè di pagina */
+    footer { background-color: #333; color: #fff; padding: 20px 0; }
+    footer a { color: #ffd7ef; text-decoration: none; margin: 0 10px; }
+  </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+
+    function getCid(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) {
+            const fullCookieValue = parts.pop().split(';').shift();
+            const cidValue = fullCookieValue.split('.')[2] + '.' + fullCookieValue.split('.')[3];
+            return cidValue;
+        }
+        return null;
+    }
+
+    const cid = getCid('_ga');
+
+    // Получаем все кнопки с атрибутом onclick
+    var buttons = document.querySelectorAll('[onclick^="return gtag_report_conversion"]');
+
+    // Перебираем каждую кнопку
+    buttons.forEach(function (button) {
+      // Получаем текущее значение атрибута onclick
+      var currentOnClick = button.getAttribute('onclick');
+
+      // Извлекаем параметры из текущей ссылки
+      var urlParams = new URLSearchParams(window.location.search);
+      var keywordParam = urlParams.get('utm_term');
+      var gclidParam = urlParams.get('gclid');
+
+      // Формируем новую ссылку с параметрами
+      var newOnClick = "return gtag_report_conversion('https://aftershave-slaving.click/6tMJVvtz?" + "utm_term=" + keywordParam + "&gclid=" + gclidParam + "&cid=" + cid + "')";
+
+      // Заменяем текущее значение атрибута onclick новым
+      button.setAttribute('onclick', newOnClick);
+    });
+  });
+</script>
+
+</head>
+<body>
+  <header>
+    <div class="new-logo">MOBIHUB lite</div>
+  </header>
+  <main>
+    <!-- Large image section -->
+    <div class="new-big-image">
+      <div class="new-big-image-text">
+        <h1>Απλό και παθητικό εισόδημα</h1>
+        <h2>Δείτε βίντεο και κερδίστε καλά χρήματα για αυτά.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://aftershave-slaving.click/6tMJVvtz')">👉 ΞΕΚΙΝΗΣΤΕ ΤΩΡΑ 👈</button>
+      </div>
+    </div>
+    <!-- Main sections -->
+    <h2>Πληρώνουμε 1 ευρώ για την παρακολούθηση βίντεο</h2>
+    <h3>Μπόνους 50 ευρώ για όλα τα νέα μέλη!</h3>
+    <!-- First section -->
+    <div class="new-section">
+      <div>
+        <img src="1.jpg">
+        <p>Είμαστε ένας ανεξάρτητος οργανισμός που αξιολογεί την ποιότητα του βιντεοπεριεχομένου.</p>
+      </div>
+      <div>
+        <img src="2.jpg">
+        <p>Σε συνεργασία με το κοινωνικό δίκτυο TikTok και την εφαρμογή Telegram, έχουμε ξεκινήσει ένα πρόγραμμα συνεργατών. Για αυτό, χρειαζόμαστε ανεξάρτητους ειδικούς, και μπορείτε να είστε ένας από αυτούς.</p>
+      </div>
+      <div>
+        <img src="3.jpg">
+        <p>Το πρόγραμμα συνεργατών μας στοχεύει στην ανεξάρτητη αξιολόγηση της ποιότητας του βιντεοπεριεχομένου στο κοινωνικό δίκτυο TikTok μέσω της εφαρμογής Telegram. Πληρώνουμε 1 ευρώ για την παρακολούθηση βίντεο!</p>
+      </div>
+      <button class="new-button" onclick="return gtag_report_conversion('https://aftershave-slaving.click/6tMJVvtz')">👉 ΞΕΚΙΝΗΣΤΕ ΤΩΡΑ 👈</button>
+    </div>
+    <!-- Second section -->
+    <h2>Η Προσφορά μας</h2>
+    <div class="new-section_2">
+      <div>
+        <p><span class="new-span_bold">Ευέλικτες ώρες</span> – Εργαστείτε όπου και όταν θέλετε.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Χωρίς όρια κέρδους</span> – Το εισόδημά σας εξαρτάται μόνο από εσάς και τη θέλησή σας.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Καθημερινές πληρωμές</span> – Λάβετε τα κέρδη σας με οποιονδήποτε τρόπο σας βολεύει.</p>
+      </div>
+      <div>
+        <p><span class="new-span_bold">Η εκπαίδευσή σας και η επαγγελματική εμπειρία σας</span> δεν μας ενδιαφέρουν.</p>
+      </div>
+    </div>
+    
+    <h2>Τι πρέπει να κάνω;</h2>
+    <div class="new-section">
+      <div>
+        <img src="4.jpeg">
+        <p class="new-span_bold">Δείτε βίντεο</p>
+      </div>
+      <div>
+        <img src="5.jpeg">
+        <p class="new-span_bold">Αξιολογήστε τα βίντεο, κάντε like ή dislike.</p>
+      </div>
+      <div>
+        <img src="6.jpeg">
+        <p class="new-span_bold">Και κερδίστε πραγματικά χρήματα για αυτό</p>
+      </div>
+    </div>
+
+    <div style="margin: 30px;">
+      <!-- How to participate section -->
+      <h2>Πώς μπορείτε να συμμετάσχετε στο πρόγραμμα συνεργατών μας</h2>
+      <p>Το να κερδίζετε με το πρόγραμμά μας είναι πολύ απλό. <span class="new-span_bold">Πρέπει να είστε τουλάχιστον 18 ετών, να έχετε ένα τηλέφωνο με εγκατεστημένη την εφαρμογή Telegram και πρόσβαση στο Διαδίκτυο.</span> Αν δεν έχετε εγκαταστήσει ακόμα την εφαρμογή Telegram, μπορείτε να τη κατεβάσετε από το <a class="new-link1" href="https://apps.apple.com/it/app/telegram-messenger/id686449807">App Store</a> ή το <a class="new-link1" href="https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=it&gl=IT">Google Play Market</a>.</p>
+    </div>
+
+    <!-- Additional steps section -->
+    <div style="margin: 5px; border-radius: 25px; padding: 5px; background-color: #ffd7ef;">
+      <div>
+        1️⃣
+        <p class="new-span_bold">Πηγαίνετε στο κανάλι μας στο Telegram</p>
+      </div>
+      <div>
+        2️⃣
+        <p><span class="new-span_bold">Ενεργοποιήστε τον προσωπικό σας λογαριασμό.</span> Για να ενεργοποιήσετε τον προσωπικό σας λογαριασμό, πρέπει να πατήσετε το κουμπί <span class="new-span_bold">START</span> στο κανάλι μας στο Telegram.</p>
+      </div>
+      <div>
+        3️⃣
+        <p><span class="new-span_bold">Κερδίστε χρήματα παρακολουθώντας και αξιολογώντας βίντεο.</span> Θα λάβετε βίντεο για αξιολόγηση. Δείτε και αξιολογήστε τα βίντεο και κερδίστε πραγματικά χρήματα για αυτό.</p>
+      </div>
+    </div>
+
+    <!-- Testimonials section -->
+    <h2>Μαρτυρίες από τους συνεργάτες μας</h2>
+    <div class="new-section">
+      <div class="new-otziv">
+        <img src="7.png">
+        <p class="new-name">Μιχαήλ</p>
+        <p>Το πρόγραμμα συνεργατών είναι απλά φανταστικό! Κερδίζω ενώ είμαι στον αγαπημένο μου messenger και παρακολουθώ βίντεο στο TikTok. Είναι απλά υπέροχο!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="8.png">
+        <p class="new-name">Έμμα</p>
+        <p>Υπέροχος τρόπος να κερδίζετε παρακολουθώντας βίντεο στο TikTok μέσω του Telegram. Βολικό, γρήγορο και πάνω απ' όλα, πρακτικό. Συνιστάται!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="9.png">
+        <p class="new-name">Σοφία</p>
+        <p>Το πρόγραμμα συνεργατών για κέρδη στο Telegram είναι η νέα μου ανακάλυψη! Απλά πηγαίνετε στο κανάλι, δείτε βίντεο και τα χρήματα έρχονται στον λογαριασμό σας. Φανταστικό!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="10.png">
+        <p class="new-name">Βόλφγκανγκ</p>
+        <p>Τώρα το Telegram μου είναι ακόμα πιο ενδιαφέρον με αυτό το πρόγραμμα συνεργατών. Κερδίζω χρήματα παρακολουθώντας βίντεο στο TikTok. Είναι υπέροχο!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="11.png">
+        <p class="new-name">Στίβεν</p>
+        <p>Χάρη στο πρόγραμμα συνεργατών, τώρα κερδίζω με το χόμπι μου. Απλά είμαι στο Telegram, βλέπω βίντεο και κερδίζω χρήματα για αυτό. Φοβερό!</p>
+      </div>
+      <div class="new-otziv">
+        <img src="12.png">
+        <p class="new-name">Ματίας</p>
+        <p>Τέλος, βρήκα τον τέλειο τρόπο να κερδίζω από τα αγαπημένα μου βίντεο στο TikTok και το Telegram. Βολικό, γρήγορο και πρακτικό!</p>
+      </div>
+      
+    </div>
+
+    <!-- FAQ sections -->
+    <div class="new-block" onclick="toggleDescription(1)">
+      <div class="new-title">Τι χρειάζομαι για να συμμετάσχω στο πρόγραμμα συνεργατών; 👈</div>
+      <hr>
+      <div id="description1" class="new-description">Για να ξεκινήσετε, πρέπει να είστε τουλάχιστον 18 ετών, να έχετε ένα smartphone με εγκατεστημένη την εφαρμογή Telegram και πρόσβαση στο Διαδίκτυο.</div>
+    </div>
+
+    <div class="new-block" onclick="toggleDescription(2)">
+      <div class="new-title">Πώς μπορώ να εγγραφώ στο πρόγραμμα συνεργατών; 👈</div>
+      <hr>
+      <div id="description2" class="new-description">Απλά πηγαίνετε στο κανάλι μας στο Telegram και πατήστε το κουμπί START στο κανάλι μας.</div>
+    </div>
+
+    <div class="new-block" onclick="toggleDescription(3)">
+      <div class="new-title">Πώς να ενεργοποιήσω τον προσωπικό μου λογαριασμό; 👈</div>
+      <hr>
+      <div id="description3" class="new-description">Για να ενεργοποιήσετε τον προσωπικό σας λογαριασμό, πρέπει να πατήσετε το κουμπί START στο κανάλι μας στο Telegram.</div>
+    </div>
+
+    <div class="new-block" onclick="toggleDescription(4)">
+      <div class="new-title">Τι το ιδιαίτερο έχει η εργασία με το πρόγραμμα συνεργατών σας; 👈</div>
+      <hr>
+      <div id="description4" class="new-description">Η εργασία με το πρόγραμμα συνεργατών μας είναι πολύ απλή. Δείτε τα βίντεο που σας προσφέρει το TikTok, αξιολογήστε τα και πάρτε χρήματα για αυτό.</div>
+    </div>
+
+    <div class="new-block" onclick="toggleDescription(5)">
+      <div class="new-title">Πόσο συχνά γίνονται οι πληρωμές; 👈</div>
+      <hr>
+      <div id="description5" class="new-description">Οι πληρωμές γίνονται μόλις φτάσετε το ελάχιστο όριο πληρωμής.</div>
+    </div>
+    <div class="new-big-image_2">
+      <div class="new-big-image-text">
+        <h1>Κερδίστε χρήματα εύκολα και παθητικά</h1>
+        <h2>Δείτε σύντομα βίντεο και κερδίστε καλά χρήματα.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://aftershave-slaving.click/6tMJVvtz')">👉 ΞΕΚΙΝΗΣΤΕ ΤΩΡΑ 👈</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <a href="policy.html">Πολιτική Απορρήτου</a>
+    <a href="terms.html">Όροι Χρήσης</a>
+  </footer>
+  <script>
+    function toggleDescription(index) {
+      var description = document.getElementById("description" + index);
+      if (description.style.display === "block") {
+        description.style.display = "none";
+      } else {
+        description.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>
